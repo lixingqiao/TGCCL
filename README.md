@@ -14,15 +14,25 @@ The corresponding manuscript is currently under revision.
 
 Drug response prediction aims to estimate the sensitivity of cancer cell lines to anticancer compounds from molecular and drug information.
 
-TGCCL jointly models multiple omics modalities, including:
+Typical computational pipelines jointly model:
+
+- cancer cell molecular profiles,
+- drug chemical structures,
+- drug response measurements such as IC50.
+
+<p align="center">
+  <img src="demo.png" width="92%">
+</p>
+
+TGCCL focuses on improving representation learning over heterogeneous multi-omics information and evaluating robustness under both standard and challenging generalization settings.
+
+The study considers multiple omics modalities, including:
 
 - gene expression,
 - copy-number variation,
 - mutation profiles,
 
 together with drug molecular information and biological interaction priors.
-
-The study focuses on representation learning across heterogeneous molecular views and evaluates model robustness under both standard and challenging generalization settings.
 
 ---
 
@@ -124,6 +134,8 @@ The study includes comprehensive evaluation across:
 **Xingqiao Li et al.**
 
 *Tensorized Multi-View Graph Contrastive Learning for Drug Response Prediction*
+
+**Neural Networks — Minor Revision**
 
 ---
 
