@@ -125,8 +125,6 @@ The study includes comprehensive evaluation across:
 
 *Tensorized Multi-View Graph Contrastive Learning for Drug Response Prediction*
 
-**Neural Networks — Minor Revision**
-
 ---
 
 ## Code Availability
